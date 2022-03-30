@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Registration Form</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+	<center>
+		<h1 style="color: rgb(222, 227, 235);">Student Registration Form</h1>
+		<table id="ipt">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<td><input type="text" name="name" id="name"></td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>Roll no.</th>
+					<td><input type="text" name="rollno" id="rollno"></td>
+				</tr>
+				<tr>
+					<th>E-mail</th>
+					<td><input type="text" name="email" id="email"></td>
+				</tr>
+				<tr>
+					<th>Age</th>
+					<td><input type="text" name="age" id="age"></td>
+				</tr>
+				<tr>
+					<th>Mobile No.</th>
+					<td><input type="text" name="mobile" id="mobile"></td>
+				</tr>
+				<tr id="btna">
+					<td colspan="2"><input type="button" name="button" id="btn" value="Add" onclick="AddRow()"></td>
+				</tr>
+			</tbody>
+		</table>
+
+		<table id="show">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Roll no</th>
+					<th>E-mail</th>
+					<th>Age</th>
+					<th>Mobile No.</th>
+				</tr>
+			</thead>
+		</table>
+	</center>
+	<script src="index.js"></script>
+</body>
+
+</html>
